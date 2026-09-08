@@ -1,0 +1,10 @@
+hour = int(input("Enter hour (0-23): "))
+
+if 5 <= hour <= 11:
+    print("Morning")
+elif 12 <= hour <= 16:
+    print("Afternoon")
+elif 17 <= hour <= 20:
+    print("Evening")
+else:
+    print("Night")
